@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body background & text */
+body {
+  @apply bg-sand-light dark:bg-earth-dark text-gray-900 dark:text-green-200 transition-colors duration-300;
+}
+
+/* Card / panel styling for animal info or ResultsPanel */
+.card {
+  @apply bg-sand-light dark:bg-earth-dark rounded-xl shadow-md p-4;
+}
+
+/* Text highlights for wildlife theme */
+.text-wild-primary {
+  @apply text-grass-green dark:text-leaf-dark;
+}
+
+.text-wild-accent {
+  @apply text-water-blue dark:text-green-300;
+}
+
+/* Buttons */
+.btn-wild {
+  @apply px-4 py-2 rounded-lg font-semibold bg-grass-green dark:bg-leaf-dark text-white hover:bg-green-500 dark:hover:bg-green-600 transition-colors duration-200;
+}
